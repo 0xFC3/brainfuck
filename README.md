@@ -1,21 +1,21 @@
 # Chat Application using Brainfuck
 
-![Ewor Asci Art - Client.bf](ewor_art.PNG)
+![Ewor Asci Art - Client.bf](visuals/ewor_art.PNG)
 
 ## Demo
 
-![chat](chat.gif)
+![chat](visuals/chat.gif)
 
 ## How to run
 
-Run one instance of the server and two instances of the client.
+Run *one instance of the server* and *two instances of the client*.
 
 ```bash
 python brainfuck.py server.bf
 python brainfuck.py client.bf
 ```
 
-You can also run asci_art_client.bf as a client, depending on your aestetic preferences :D.
+You can also run ```asci_art_client.bf``` for the client, depending on your aestetic preferences :D.
 
 ## How it works
 
