@@ -15,7 +15,7 @@ python brainfuck.py server.bf
 python brainfuck.py client.bf
 ```
 
-You can also run ```asci_art_client.bf``` for the client, depending on your aestetic preferences :D.
+You can also run ```asci_art_client.bf``` for the client, depending on your **aestetic preferences :D**.
 
 ## How it works
 
@@ -34,7 +34,7 @@ The interpreter for the brainfuck code is also done in python (brainfuck.py).
 
 #### Brainfuck Code Features
 
-- **Anker Method**: Setting a cell to 255 to be able to come back to it from anywhere. (```+[-<+]->+```)
+- **Anker Method**: Setting a cell to 255 to be able to come back to it from anywhere. (```+[-<+]-```)
 - **While Loop**: Multiple while loops are used to wait for user input and the enter key.
 - **if-statements**: if-statements are for example used to check if the user input is a "enter" or not.
 - **if-else-statements**: if-else-statements are for example used to check if the message is from the user or the other client and print the prefix accordingly.
