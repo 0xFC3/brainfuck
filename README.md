@@ -1,6 +1,6 @@
 # Chat Application using Brainfuck
 
-![Ewor Asci Art - Client.bf](ewor_art.png)
+![Ewor Asci Art - Client.bf](ewor_art.PNG)
 
 ## Demo
 
