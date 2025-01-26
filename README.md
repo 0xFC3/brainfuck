@@ -21,7 +21,7 @@ You can also run ```asci_art_client.bf``` for the client, depending on your **ae
 
 ![brainfuck_diagram](visuals/Diagram.PNG)
 
-The main program is **client.bf**. It waits for input from a queue (```,``` returns the first element of the queue and Null if the queue is empty). The queue is filled by the users input (getch.py) or from the server. It then recognizes the origin of the message and outputs it whenever an "enter" is reached. So the chat application waits for the user to complete a message before sending it to the other client.
+The main program is **client.bf**. It waits for input from a queue (```,``` returns the first element of the queue and the Ascii Null character if the queue is empty). The queue is filled by the users input (getch.py) or from the server. It then recognizes the origin of the message and outputs it whenever an "enter" is reached. So the chat application waits for the user to complete a message before sending it to the other client.
 
 If you typed the message, it gets a **"You:"** prefix, if it is from the other person it gets a **"Other:"** prefix.
 
