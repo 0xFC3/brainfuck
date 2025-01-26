@@ -32,9 +32,10 @@ The networking is done using sockets in python. It forwards the output from the 
 The interpreter for the brainfuck code is also done in python (brainfuck.py).
 
 
-#### Brainfuck Code Features
+## Brainfuck Code Features
 
 - **Anker Method**: Setting a cell to 255 to be able to come back to it from anywhere. (```+[-<+]-```)
 - **While Loop**: Multiple while loops are used to wait for user input and the enter key.
 - **if-statements**: if-statements are for example used to check if the user input is a "enter" or not.
 - **if-else-statements**: if-else-statements are for example used to check if the message is from the user or the other client and print the prefix accordingly.
+- **inverting 0**: convert 0 to something nonzero and everything else to zero. (This is negation for the if statments)
